@@ -1,0 +1,39 @@
+.custom-card-top-height {
+    height: 4rem;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    transition: all 2s ease;
+}
+
+.zoom:hover img {
+    transform: scale(1.5);
+}
+
+.custom-fruits-pic {
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+    .custom-fruits-pic {
+        height: 291px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.custom-border-bottom {
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-info);
+    --bs-tooltip-border-radius: 0;
+    --bs-tooltip-opacity: 1;
+    margin-bottom: 0.5rem!important;
+}
